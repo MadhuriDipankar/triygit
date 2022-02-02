@@ -8,7 +8,7 @@ public class HelloController {
 	@GetMapping("Welcome")
 	public String wish()
 	{     
-		return "Hello from Spring boot to Azure... ";
+		return "Hello from Spring boot to Azure...Thanks ";
 	}
 
 }
