@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-	@GetMapping("Welcome")
+	@GetMapping("/welcome")
 	public String wish()
 	{     
 		return "Hello from Spring boot to Azure...Thanks ";
